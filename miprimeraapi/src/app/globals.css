@@ -1,0 +1,46 @@
+body{
+  background: url(https://www.xtrafondos.com/wallpapers/resoluciones/19/casa-kame-de-dragon-ball_1920x1080_3963.jpg) no-repeat center center fixed;
+}
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 3em;
+}
+.inputContainer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.table-content {
+  border: 5px solid #000000;
+  color: #4472aa;
+}
+
+.table-content th td{
+  border: 5px solid #000000;
+  color: #4472aa;
+}
+.table-content td ,th{
+  border: 3px groove #8824aa;
+}
+.table-content th{
+  font-size: 1.5em;
+}
+
+input[type="text"]{
+  width: 200px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00000093;
+  outline: none;
+  color: #a1e5f5;
+  position: fixed;
+  top: 5px;
+}
+input[type="text"]:hover{
+  background-color: #454045;
+  box-shadow: 3px 3px 15px 2px #a1e5f5, -3px -3px 15px 2px #a1e5f5;
+}
